@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
     <link rel="stylesheet" href="css/style.css">
+     <!---------------- Link retirado do site para copiar icones entrar no site e copiar o código  colar aqui -------------->
+    <script src="https://kit.fontawesome.com/9f7720c813.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
@@ -20,7 +22,163 @@
                     <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Olá, meu nome é <span>John Doe</span></h1>
+            </div>
         </div>
     </div>
+    <!---------------- sobre-------------->
+    <div ide="sobre">
+        <div class="container">
+            <div class="linha">
+                <div class="sobre-col-1">
+                    <img src="imagens/sobre.png">
+                </div>
+                <div class="sobre-col-2">
+                    <h1 class="subtitulo">Sobre</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fugiat repellat molestiae eveniet nostrum ea labore a, veniam ipsam saepe libero, ratione deleniti magni vel? Voluptates fugiat inventore aspernatur mollitia?
+                    </p>
+                    <div class="aba-titulos">
+                        <p class="aba-links link-ativo" onclick="abriraba('Skills')">Skills</p>
+                        <p class="aba-links" onclick="abriraba('experiencia')">Experiência</p>
+                        <p class="aba-links" onclick="abriraba('formacao')">Formação</p>
+                    </div>
+                    <div class="aba-conteudos aba-ativa" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br>Desenvolvimento de Interfaces Web/App</li>
+                            <li><span>Web Development</span> <br>Desenvolvimento de Sites</li>
+                            <li><span>APP Development</span> <br> Desenvolvimento de App para Androide e IOS</li>
+                        </ul>
+                    </div>
+                    <div class="aba-conteudos" id="experiencia">
+                        <ul>
+                            <li><span>2021 - até hoje</span> <br>Professor Honorário no MIT</li>
+                            <li><span>2011 - 2021</span> <br>CIO at IBM</li>
+                            <li><span>2004 - 2011</span> <br> Desenvolvedor na Google Inc.</li>
+                        </ul>
+                    </div>
+                    <div class="aba-conteudos" id="formacao">
+                        <ul>
+                            <li><span>2010</span> <br>MBA no MIT</li>
+                            <li><span>2009</span> <br>MBA Harvard</li>
+                            <li><span>2003</span> <br> Serviço Nacional de Aprendizagem Comercial (Senac) - Botucatu / SP </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------SERVIÇOS----------------------  -->
+<div id="servicos">
+    <div class="container">
+        <h1 class="subtitulo">Serviços</h1>
+        <div class="lista-servicos">
+            <div>
+                <i class="fa-brands fa-codepen"></i>
+                <h2>UX/UL</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi sint beatae optio laudantium incidunt dolorem, vero quasi consequuntur. Saepe suscipit repudiandae perspiciatis eos aperiam quae tempore nisi, vel modi placeat?</p>
+                    <a href="#">Saiba mais</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Develpment</h2> 
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, unde laudantium earum deleniti illo culpa quisquam repellat molestiae maiores sapiente exercitationem et temporibus doloribus dolor ipsum recusandae incidunt quas nostrum.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-layer-group"></i>
+                <h2>Desenvolvimento de Interfaces WEB/APP</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure maxime incidunt consequuntur alias reprehenderit quasi veritatis dicta ut doloremque odit eaque, possimus aperiam, accusantium obcaecati laboriosam. Quasi earum nostrum aliquid.</p>
+                    <a href="#">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------portfolio----------------------  -->
+<div id="portifolio">
+    <div class="container">
+        <h1 class="subtitulo">Meus trabalhos</h1>
+        <div class="lista-trabalhos">
+            <div class="trabalhos">
+                <img src="imagens/profissao1.jpg" alt="geração de imagens">
+                <div class="layer">
+                    <h3>Geração de Imagens</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, ut? Voluptates, suscipit. </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="trabalhos">
+                <img src="imagens/profissao2.jpg" alt="loja virtual">
+                <div class="layer">
+                    <h3>Geração de Imagens</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, ut? Voluptates, suscipit. </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="trabalhos">
+                <img src="imagens/profissao3.jpg" alt="criacao de APP">
+                <div class="layer">
+                    <h3>Geração de Imagens</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, ut? Voluptates, suscipit. </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+        </div>
+        <a href="#" class="botao">Saiba mais</a>
+    </div>
+</div>
+<!------------------CONTATO----------------------  -->
+<div id="contato">
+    <div class="container">
+        <div class="linha">
+            <div class="contato_esquerda">
+                <h1 class="subtitulo">Contato</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contato@tfl.com</p>
+                <p><i class="fa-solid fa-square-phone-flip"></i>59 9632-7418</p>
+                <div class="social">
+                    <a href="http://www.discord.com"><i class="fa-brands fa-discord"></i></a>
+                    <a href="http://www.x.com"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="http://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="http://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="http://faceboock.com"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+            </div>
+            <div class="contato_direita">
+                <form>
+                    <input type="text" name="Nome" placeholder="Digite seu nome" required>
+                    <input type="email" name="E-mail" placeholder="Digite seu E-mail" required>
+                    <textarea name="Mensagem" rows="6" placeholder="Digite sua Mensagem" required></textarea>
+                    <button type="submit" class="botao botao2"> Enviar </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright"><!-- simbolo copyright Alt + 169 -->
+        <p>copyright ® 2025. Orgulhosamente feito com <i class="fa-solid fa-heart"></i> na Terra do Saci. </p>
+    </div>
+</div>
+
+
+
+    <script>
+        var abaLinks = document.getElementsByClassName("aba-links");
+        var abaConteudos = document.getElementsByClassName("aba-conteudos");
+
+        function abriraba(abaNome) {
+            for (abaLink of abaLinks) {
+                abaLink.classList.remove("link-ativo");
+            }
+            for (abaConteudo of abaConteudos) {
+                abaConteudo.classList.remove("aba-ativa");
+            }
+            event.currentTarget.classList.add("link-ativo");
+            document.getElementById(abaNome).classList.add("aba-ativa");
+        }
+
+    </script>
 </body>
 </html>
